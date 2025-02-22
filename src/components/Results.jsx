@@ -1,5 +1,12 @@
 import './Results.css';
 import Card from './Card';
+import PropTypes from 'prop-types';
+
+Results.propTypes = {
+    results: PropTypes.array,
+    isRemoval: PropTypes.bool,
+    addToPlaylist: PropTypes.func,
+  };
 
 function Results(props) {
 

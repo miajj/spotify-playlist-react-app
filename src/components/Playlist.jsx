@@ -2,6 +2,12 @@ import './Playlist.css';
 import Card from './Card';
 import Spotify from '../util/Spotify';
 import { useState } from 'react';
+import PropTypes from 'prop-types';
+
+Playlist.propTypes = {
+    playlist: PropTypes.array,
+    removeFromPlaylist: PropTypes.func,
+  };
 
 function Playlist(props) {
     const [playlistName, setPlaylistName] = useState("");

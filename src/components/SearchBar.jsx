@@ -1,6 +1,11 @@
 import Spotify from "../util/Spotify";
 import { useState } from "react";
 import "./SearchBar.css";
+import PropTypes from 'prop-types';
+
+SearchBar.propTypes = {
+    setResults: PropTypes.func,
+  };
 
 function SearchBar(props) {
     const [searchTerm, setSearhTerm] = useState("");

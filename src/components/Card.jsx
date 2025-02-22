@@ -1,4 +1,12 @@
 import "./Card.css"
+import PropTypes from 'prop-types';
+
+Card.propTypes = {
+    song: PropTypes.object,
+    isRemoval: PropTypes.bool,
+    addToPlaylist: PropTypes.func,
+    removeFromPlaylist: PropTypes.func,
+  };
 
 function Card({ song, isRemoval, addToPlaylist, removeFromPlaylist }) {
 
