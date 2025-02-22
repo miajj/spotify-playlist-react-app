@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    background-color: #010c3f;
+    color: rgb(245, 163, 163);
+    font-size: 1.88rem;
+    font-family: 'Poppins', sans-serif;
+    padding: .77rem 0;
+}
+
+span{
+    color: #6c41ec;
+}

@@ -1,0 +1,54 @@
+.playlist{
+    width: 37%;
+    background-color: rgba(1, 12, 63, 0.7);
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 950px;
+    padding: 2.27rem 2.16rem;
+    box-shadow: 0 4px 2px 2px #000000;
+    margin-bottom: 60px;
+}
+
+
+@media only screen and (max-width: 1020px){
+    .playlist{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.playlist input {
+    width: 100%;
+    border: 0;
+    outline:0; 
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.89rem;
+    color: #fff;
+}
+
+.playlist #save {
+    cursor: pointer;
+    background-color: #6c41ec;
+    color: #fff;
+    width: 18rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    text-align: center;
+    font-size: 1.33rem;
+    font-weight: 500;
+    transition: background-color .25s;
+    justify-content: center;
+    align-items: stretch;
+}
+
+

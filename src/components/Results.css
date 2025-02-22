@@ -1,0 +1,21 @@
+.results{
+    height:950px;
+    width: 50%;
+    background-color: rgba(1, 12, 63, 0.7);
+    border: 1px solid #d3d3d3;
+    overflow-y: scroll;
+    padding: .88rem;
+    box-shadow: 0 4px 2px 2px #000000;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1020px){
+    .results{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+  }
